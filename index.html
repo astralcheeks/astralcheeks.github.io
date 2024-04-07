@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="theme.css">
         <script src="script.js"></script>
     </head>
     <body>
         <h1>Adrian Kahali</h1>
-        <p>hey</p>
-        <button type="button" onclick="revealMessage()">push me</button>
-        <p id="hiddenMessage" style="display:none">gulp</p>
+        <h2>montreal 25 linguist</h2>
+        <button class="collapsible" onclick="revealResume()">cv</button>
+        <button class="collapsible" onclick="revealContact()">contact</button>
+        <h3 class="right" id="resume" style="display:none">
+            BA in Linguistics<br>
+            Concordia University, 2021-2024
+        </h3>
+        <a href="https://www.linkedin.com/in/adrian-kahali-783897301/"
+            class="right"
+            target="_blank"
+            id="contact"
+            style="display:none">
+            linkedin
+        </a>
     </body>
 </html>
