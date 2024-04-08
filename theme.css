@@ -1,16 +1,15 @@
 
 body {
     background-color: white;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
   H1 { color: blue; font: bold 24pt Helvetica, Arial, sans-serif }
   H2 { color: blue; font: bold 18pt Helvetica, Arial, sans-serif }
-  H3 { color: rgb(8, 8, 138); font: bold 14pt Helvetica, Arial, sans-serif }
-  H4 { color: rgb(8, 8, 138); font: bold 14pt Helvetica, Arial, sans-serif }
+  H3 { color: rgb(8, 8, 138); font: bold 15pt Helvetica, Arial, sans-serif }
 
   HR.div {
     width: 50px;
@@ -20,6 +19,47 @@ body {
     border-color: none;
     border-style: none;
   }
+
+#sections A {
+    color: blue;
+    font: bold 16pt Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+#sections A:hover {
+    color: rgb(8, 8, 138);
+    font: bold 15pt Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transform: rotate(3deg);
+}
+
+#info A {
+  color: rgb(8, 8, 138);
+    font: bold 15pt Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+#info A:hover {
+  color: rgb(8, 8, 138);
+    font: bold 14pt Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transform: rotate(3deg);
+    text-align: center;
+}
+
+#pressed A {
+  color: rgb(8, 8, 138);
+    font: bold 15pt Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transform: rotate(3deg);
+}
 
   .button {
     color: blue;
@@ -43,146 +83,3 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
-
-.collapsible:hover{
-    color: rgb(8, 8, 138);
-    font: bold 15pt Helvetica, Arial, sans-serif;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.tab {
-    tab-size: 2;
-}
-
-.right {
-    text-align: right;
-}
-
-  .subhead { color: red; font: bold 14pt Helvetica, Arial, sans-serif; }
-  
-  A.link { color: blue; font: bold 14pt Helvetica, Arial, sans-serif; text-decoration: none }
-  A.aref { color: red; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-  A:link { color: rgb(8, 8, 138); font: bold 14pt Helvetica, Arial, sans-serif }
-  A:hover { color: rgb(8, 8, 138); font: bold 13pt Helvetica, Arial, sans-serif }
-  A:visited { color: rgb(8, 8, 138); font: bold 14pt Helvetica, Arial, sans-serif }
-
-  EM.lnk { color: yellow; font: bold italic small Helvetica, Arial, sans-serif }
-  EM.foo { color: red; font: bold italic 12pt Helvetica, Arial, sans-serif }
-  EM.emsg{ color: red; font: bold italic 12pt Helvetica, Arial, sans-serif }
-  EM.bkt { color: red; font: bold 18pt Helvetica, Arial, sans-serif }
-  EM.bks { color: red; font: bold 14pt Helvetica, Arial, sans-serif }
-  EM.spinnum { color: red; font: bold 18pt Helvetica, Arial, sans-serif }
-  EM.by  { color: red; font: bold 14pt Helvetica, Arial, sans-serif }
-
-  EM.th { color: #900090; font: bold italic 12pt Helvetica, Arial, sans-serif }
-  EM.ph { color: #ffffff; font: bold 12pt Helvetica, Arial, sans-serif }
-
-  EM.hi { color: red; font-weight: bold; font-style: normal }
-  EM.sub { color: #ff8080; font-weight: bold; font-style: normal }
-
-  A.hlnk { color: pink; font: bold 12pt Helvetica, Arial, sans-serif }
-
-  A.sm0 { color: red; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-  A.sm0:visited { color: #ff9090; }
-  A.sm1 { color: blue; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-  A.sm1:visited { color: #9090ff; }
-  A.sm2 { color: blue; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-  A.sm2:visited { color: #9090ff; }
-  B.sm0 { color: red; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-  B.sm1 { color: blue; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-  B.sm2 { color: blue; font: bold 12pt Helvetica, Arial, sans-serif; text-decoration: none }
-
-  A.lns { color: #ff0000; font-weight: bold; text-decoration: none; }
-  A.lns:visited { color: #ff9090; }
-  A.ln  { color: #0000ff; font-weight: bold; text-decoration: none; }
-  A.ln:visited  { color: #9090ff; }
-
-  LI.star { list-style-image: url(/icon/rs.gif); }
-
-  TD.xlnk { }
-  A.xlnk  { color: yellow; font: bold small Helvetica, Arial, sans-serif; text-decoration: none; }
-  A.xlnk:hover { color: red; }
-  IMG.xlnk { border: 0; }
-
-  TABLE.gm { border-bottom: solid 2px; border-top: solid 2px; border-collapse: collapse }
-  TR.gm   { vertical-align: top }
-  TD.gm1  { text-align: right; font: bold 18pt Helvetica, Arial, sans-serif; padding-right: 6px; border-bottom: solid 1px }
-  TD.gm2  { border-bottom: solid 1px }
-
-  A.later { text-decoration: none; border: none }
-
-  A.lo { text-decoration: none }
-  A.lo:hover { text-decoration: underline }
-
-  .ps     { background-color: white; color: #000060; padding: 5px }
-
-  TABLE.cached { border: solid 3px; border-color: red }
-  TD.cached { background-color: #ffff70; color: #000070; padding: 5px }
-
-  TABLE.pjballot { width: 100%; border: 0 }
-  TR.pjballot { vertical-align: top }
-
-  TABLE.boxit {
-    border: blue 3px;
-    background-color: #f0ffff;
-    padding: 4px;
-    margin-left: 4px;
-    font-size: small;
-    float: right;
-  }
-
-  .vhead {
-    width: 100%;
-    background-color: #ffffff;
-    border: solid 2px #0000ff;
-    padding: 3px;
-  }
-
-  .vheadtitle {
-    font-weight: bold;
-    color: red;
-  }
-
-  .vheadtext {
-    color: black;
-  }
-
-  .auth {
-    font-weight: bold;
-    color: #808080;
-  }
-
-  .cdrev {
-    color: red;
-  }
-
-  .rstag {
-    font-weight: bold;
-    color: #7070c0;
-  }
-
-  DIV.revbook {
-    margin-left: 3em;
-    margin-right: 3em;
-    margin-bottom: 1em;
-    padding-left: 1em;
-    padding-top: 0.5em;
-    border: solid 1pt;
-    border-color: #f08080;
-    background-color: #e8ffff;
-    font-weight: bold;
-    font-size: 80%;
-  }
-
-
-  /* added for use by duke.inc */
-  img.dkcover {
-    float: right;
-    margin-left: 1em;
-    height: 180px;
-    width: auto;
-  }
-  a.dkcover {
-    decoration: none;
-  }
