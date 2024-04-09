@@ -11,15 +11,6 @@ body {
   H2 { color: blue; font: bold 18pt Helvetica, Arial, sans-serif }
   H3 { color: rgb(8, 8, 138); font: bold 15pt Helvetica, Arial, sans-serif }
 
-  HR.div {
-    width: 50px;
-    size: 2px;
-    text-align: center;
-    background-color: #ff0000;
-    border-color: none;
-    border-style: none;
-  }
-
 #sections A {
     color: blue;
     font: bold 16pt Helvetica, Arial, sans-serif;
@@ -59,27 +50,4 @@ body {
     cursor: pointer;
     text-decoration: none;
     transform: rotate(3deg);
-}
-
-  .button {
-    color: blue;
-    font: bold 16pt Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    border: none;
-    background-color: white;
-}
-
-.collapsible {
-    color: blue;
-    font: bold 16pt Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    border: none;
-    background-color: white;
-}
-
-.button:hover{
-    color: rgb(8, 8, 138);
-    font: bold 15pt Helvetica, Arial, sans-serif;
-    cursor: pointer;
-    text-decoration: none;
 }
