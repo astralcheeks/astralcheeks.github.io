@@ -1,19 +1,21 @@
 
 body {
     background-color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
-  H1 { color: blue; font: bold 24pt Helvetica, Arial, sans-serif }
-  H2 { color: blue; font: bold 18pt Helvetica, Arial, sans-serif }
-  H3 { color: rgb(8, 8, 138); font: bold 15pt Helvetica, Arial, sans-serif }
+
+
+  H1 { color: blue; font: bold 2.5vw Helvetica, Arial, sans-serif }
+  H2 { color: blue; font: bold 1.8vw Helvetica, Arial, sans-serif }
+  H3 { color: rgb(8, 8, 138); font: bold 2vw Helvetica, Arial, sans-serif }
 
 #sections A {
     color: blue;
-    font: bold 16pt Helvetica, Arial, sans-serif;
+    font: bold 1.8vw Helvetica, Arial, sans-serif;
     text-decoration: none;
     border: none;
     background-color: white;
@@ -21,7 +23,7 @@ body {
 
 #sections A:hover {
     color: rgb(8, 8, 138);
-    font: bold 15pt Helvetica, Arial, sans-serif;
+    font: bold 1.7vw Helvetica, Arial, sans-serif;
     cursor: pointer;
     text-decoration: none;
     transform: rotate(3deg);
@@ -29,7 +31,7 @@ body {
 
 #info A {
   color: rgb(8, 8, 138);
-    font: bold 15pt Helvetica, Arial, sans-serif;
+    font: bold 1.7vw Helvetica, Arial, sans-serif;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
@@ -37,7 +39,7 @@ body {
 
 #info A:hover {
   color: rgb(8, 8, 138);
-    font: bold 14pt Helvetica, Arial, sans-serif;
+    font: bold 1.7vw Helvetica, Arial, sans-serif;
     cursor: pointer;
     text-decoration: none;
     transform: rotate(3deg);
@@ -46,7 +48,7 @@ body {
 
 #pressed A {
   color: rgb(8, 8, 138);
-    font: bold 15pt Helvetica, Arial, sans-serif;
+    font: bold 1.7vw Helvetica, Arial, sans-serif;
     cursor: pointer;
     text-decoration: none;
     transform: rotate(3deg);
